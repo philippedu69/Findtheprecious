@@ -1,0 +1,39 @@
+body
+{
+    padding-top: 10px;
+}
+
+[class*="col"]
+{
+    background-color: black;
+    border: 1px solid white;
+    color: black;
+    height: 40px;
+}
+
+@media (min-width: 768px) {
+    .container {
+      width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1140px;
+    }
+  }
+
+.yellow
+{
+    background-color: yellow;
+    color: yellow;
+}
+.orange
+{
+    background-color: orange;
+    color: orange;
+}
