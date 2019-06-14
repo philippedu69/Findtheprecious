@@ -1,3 +1,8 @@
+*
+{
+  box-sizing: border-box;
+}
+
 body
 {
     padding-top: 10px;
@@ -9,23 +14,8 @@ body
     border: 1px solid white;
     color: black;
     height: 40px;
+    padding: 4%;
 }
-
-@media (min-width: 768px) {
-    .container {
-      width: 720px;
-    }
-  }
-  @media (min-width: 992px) {
-    .container {
-      width: 960px;
-    }
-  }
-  @media (min-width: 1200px) {
-    .container {
-      width: 1140px;
-    }
-  }
 
 .yellow
 {
